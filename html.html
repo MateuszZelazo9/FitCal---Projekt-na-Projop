@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Zadeklarowanie Języka używanego w dokumentu-->
+<html lang="en"> 
+<!-- Głowa Strony, zawiera metadane, tytuł strony, i odniesienie do plików CSS oraz JS-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FitCal </title>
+    <!-- Odniesienia do Plikow CSS i JS-->
+    <link href="CSS.css" rel="stylesheet">
+    
+<!-- Zamknięcie Głowy Strony -->
+</head>
+<body>
+    <!-- Blok z Tytłem Strony -->
+    <div class="fitcal" id="gora">  <h1> <center id="bcd"> FitCal - Prosty Sposób na Obliczanie BMI </center> </h1> </div>
+    <!-- Blok z Boczną zawartością strony-->
+    <div class="fitcal" id="bok">
+    <div> Strona wkrótce będzie się rozwijać! W razie pytań zadzwoń do nas na XXX.</div>
+    </div>
+    <!-- Blok zawierający instrukcje do korzystania ze strony i Formularz-->
+    <div class="fitcal" id="srodek"> <p id="abcd"> <b> Poniżej znajdują się trzy kwadraty, aktualnie niewidoczne. Będa one zielone, po wpisaniu każdej częsci Ostatni się zaświeci po wykonaniu działania. <b> </p>
+        <p> Powodzenia. </p>
+        <!-- Formularz przyjmujący Dane do Obliczenia BMI. Zawiera odniesienie do pliku php.php -->
+        <form action="php.php" method="post">
+            <!-- Pole przyjmujące wpisany wzrost, wywołujące funkcje "wyslaniewzrostu()" przy wpisaniu danych-->
+            <p> Podaj swój wzrost (w metrach): <input id="bomba2" oninput="wyslaniewzrostu()" name="wzrost"> </p>
+            <!-- Pole przyjmujące wpisaną wagę, wywołującą funkcje "wyslaniewagi()" przy wpisaniu danych-->
+            <p> Podaj swoją wagę: <input id="bomba1" oninput="wyslaniewagi()" name="waga"> </p>
+            <!-- Pole przyjmujące wpisany wzrost, nie wywołuje żadnej funkcji. -->  
+            <p> Podaj swoją płeć (opcjonalne): <input id="bomba3" name="plec"> </p>
+        </form>
+        <!-- Paragraf z Przyciskiem wywołującym funkcje "NORMALNAFUNKCJA() przy naciśnięciu."-->
+        <p> <button onclick="NORMALNAFUNKCJA()" type="submit"> Wyślij </button></p>
+        <!-- Wyświetlanie BMI -->
+        <center> <h2> Twoje BMI Wynosi:</h2></center>
+        <center> <p id="tymon"> Najpierw prześlij dane : )</p> </center>
+    </div>
+    <!-- Blok świecący się na zielono po wysłaniu Wzrostu -->
+    <div id="a" class="jedenzblokow aaa"> Wzrost: Wysłany! </div>
+    <!-- Blok świecący się na zielono po wysłaniu Wagi -->
+    <div id="b" class="jedenzblokow aaa"> Waga: Przesłana! </div>
+    <!-- Blok świecący się na zielono po kliknięciu przycisku -->
+    <div id="c" class="jedenzblokow aaa"> 
+        <p> Przycisk: Kliknięty!</p>
+        <p> Wszystkie wymagane zostały przesłane!</p>
+    </div>
+    <script src="js.js"> </script>
+</body>
+</html> 

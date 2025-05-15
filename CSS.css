@@ -1,0 +1,149 @@
+/* Bazowe ustawienia dla wszystkich Bloków w Dokumencie html.html */
+.fitcal{
+    background-color: color-mix(in srgb, blue 60%, red 40%); /* Ustawia Kolor w Tle Bloków */
+    border-style: ridge; /* Ustawia styl Ramki na "ridge" */
+    border-radius: 5px; /* Ustawia wielkość Ramki na 5 pikseli */
+    border-color: darkgreen; /* Ustawia Kolor Ramki */
+    
+}
+/* Ustawienia dla bloku z tytułem strony */   
+#gora{
+    height: 100px; /* Ustawia wysokość bloku na 100px; */
+}
+/* Ustawienia dla Tekstu z tytułem strony */
+#bcd{
+    text-anchor: middle; /* Ustawia punkt zaczepienia tekstu na środek. */
+    color: darkblue; /* Ustawia kolor czcionki na ciemnoniebieski */
+}
+/* Bazowe ustawienia dla Ciała Dokumentu */
+body{
+    background-color: black; /* Zmienia Kolor Tła na Czarny */
+}
+/* Ustawienia dla Bocznej części strony */
+#bok{
+    height: 600px;  /* Ustawia wysokość bloku na 600px; */
+    width: 15%;  /* Ustawia szerokość bloku na 200px; */
+    float:left; /* Określa ustawienie Bloku na Lewo. */
+}
+/* Ustawienia dla środkowej części strony */
+#srodek{
+    height: 600px;  /* Ustawia wysokość bloku na 600px; */
+    width: 84%;  /* Ustawia szerokość bloku na 1455px; */
+    float: left; /* Określa ustawienie Bloku na Lewo. */
+}
+/* Ustawienia dla tekstu opisującego działanie strony, i tego co trzeba na niej robić. */
+#abcd{
+    font-size: 20px; /* Ustawia Wielkość Czcionki na 20 pikseli */
+}
+/* Bazowe ustawienia dla boków z klasą "aaa", czyli tych które zmieniają kolor po wprowadzeniu danych. */
+.aaa{
+    width: 414px; /* ustawia szerokość na 414 pikseli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+    float: left; /* określa ustawienie Bloku na Lewo. */
+}
+/* Bazowe ustawienia dla boków z klasą "jedenzblokow", czyli tych które zmieniają kolor po wprowadzeniu danych. */
+.jedenzblokow{
+    width: 414px; /* ustawia szerokość na 414 pikseli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+    float: left; /* określa ustawienie Bloku na Lewo. */
+    border-radius: 5px; /* Ustawia zasięg Ramki na 5 px */
+    border-color: darkgreen; /* Ustawia kolor ramki na ciemnozielony */
+    border-style: ridge; /* Ustawia styl Ramki na ridge */
+}
+/* Ustawienia dla każdego z trzech Bloków zmieniających kolor po wprowadzeniu danych. */
+#a{
+    background-color: green; /* Ustawia Kolor tła na Zielony */
+}
+#b{
+    background-color: green; /* Ustawia Kolor tła na Zielony */
+}
+#c {
+    background-color: green; /* Ustawia Kolor tła na Zielony */
+}
+/* Bazowe Ustawienia dla Ciała w dokumencie html2.html */
+#cialo2{
+    background-color: grey; /* Ustawia Kolor tła na szary */
+}
+/* Ustawienia dla Bloku z ID poczatek */
+#poczatek{
+    width: 460px; /* ustawia szerokość na 460 pixeli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+    clear: both
+}
+/* Bazowe ustawienia dla bloków z klasą quiz */
+.quiz{
+    border-width: 10px; /* Ustawia szerokość ramki na 10 pixeli */
+    border-style: solid; /* ustawia styl ramki na solid */
+    border-color: grey; /* Ustawia Kolor ramki na szary */
+    float: left; /* określa ustawienie Bloku na Lewo. */
+    background-color: lightslategray; /* ustawia kolor tła na jasnoszary */
+    
+}
+/* Ustawienia dla Bloku z ID reset */
+#reset{
+    float: left; /* określa ustawienie Bloku na Lewo */
+    width: 522px; /* ustawia szerokość na 522 pixeli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+}
+/* Ustawienia dla Przycisku z ID reset2 */
+#reset2{
+    float: left; /* określa ustawienie Bloku na Lewo */
+    width: 522px; /* ustawia szerokość na 522 pixeli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+    font-size: 40px; /* Ustawia wielkość Tekstu na 40 px; */
+    font-family: fantasy; /* Ustawia Czcionkę na Fantasy */
+}
+/* Ustawienia dla Przycisku z ID wyslij */
+#wyslij{
+    float: left; /* określa ustawienie Bloku na Lewo */
+    width: 419px; /* ustawia szerokość na 419 pixeli */
+    height: 200px; /* ustawia wysokość na 200 pixeli */
+    font-size: 40px; /* Ustawia wielkość Tekstu na 40 px; */
+    font-family: fantasy; /* Ustawia Czcionkę na Fantasy */
+}
+/* Ustawienia dla Bloku z ID pytanie1tresc */
+#pytanie1tresc{
+    width: 1439px; /* ustawia szerokość na 1439 pixeli */
+}
+/* Ustawienia dla Bloków Odpowiedziowych pytań */
+.odpowiedzi{
+    width: 467px; /* ustawia szerokość na 467 pixeli */
+}
+#pytanie2tresc{
+    width: 1439px; /* ustawia szerokość na 1439 pixeli */
+}
+/* Ustawienia dla Przycisków Odpowiedziowych */
+.abcdefg{
+    width:100%; /*Sprawia, że dany przycisk zajmuje 100% szerokości bloku */
+    height:100%; /*Sprawia, że dany przycisk zajmuje 100% wysokości bloku */
+}
+/* Ustawienia Bloku z Wynikiem */
+#final{
+    height:250px;
+    width:1439px;
+}
+/* Ustawienia dla Bloków PO zaznaczeniu odpowiedzi */
+#pierwszyprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
+#drugiprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
+#trzeciprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
+#czwartyprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
+#piatyprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
+#szostyprzycisk{
+    background-color:green; /* Zmienia kolor tła na Zielony */
+
+}
